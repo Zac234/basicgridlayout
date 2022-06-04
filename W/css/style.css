@@ -1,0 +1,35 @@
+ body{
+     display: grid;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+ }
+
+#page_header{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    min-height: 50px;
+    background-color: cyan;
+
+}
+#doge{
+    min-height: 50px;
+    padding:0px
+}
+#page_header>nav{
+    justify-self: end;
+    padding: 0px;
+
+
+
+}
+#page_main{
+    min-height:calc(100vh - 100px);
+    background-color: azure;
+}
+
+#page_footer{
+    min-height: 50px;
+    background-color: darkblue;
+
+}
